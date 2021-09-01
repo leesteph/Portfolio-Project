@@ -20,13 +20,13 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 64px;
   font-weight: bold;
   line-height: 1.5;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 24px;
 }
 
 p {
@@ -47,6 +47,10 @@ p {
   font-weight: bold;
   margin: 0;
   color: #272142;
+}
+
+.hero h1 {
+  font-size: 96px;
 }
 
 .hero h2 {
@@ -78,28 +82,8 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 900px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 44px;
-    line-height: 56px;
-  }
-
-  h2 {
-    font-size: 44px;
-  }
-  .hero {
-    padding: 80px 20px;
-  }
-
-  .content {
-    text-align: center;
-    padding: 0;
-  }
+.logo {
+  max-height: 40px;
 }
 
 .content-container {
@@ -130,4 +114,63 @@ p {
 
 .content {
   margin: 30px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  nav li a {
+    margin-left: 10px;
+  }
 }
