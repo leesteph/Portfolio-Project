@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Patricia</title>
+    <meta
+      name="description"
+      content="Contact Patricia for your web development needs."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,18 +36,29 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Patricia logo" />
           <img
             src="images/logo-small.png"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Patricia logo"
         /></a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li class="active"><a href="/contact.html">Contact</a></li>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Patricia">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Patricia's work portfolio">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Patricia">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -80,27 +95,55 @@
           "
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div><a href="" class="btn btn-branding mt-3">Contact me</a></div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              target="_blank"
+              title="Contact Patricia"
+              >Contact me</a
+            >
+          </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:patricia@gmail.com" class="email-link"
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Patricia"
             >patricia@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/patricia"
+          <a
+            href="https://www.github.com/patriciap"
+            target="_blank"
+            title="GitHub profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.instagram.com/patricia"
+          <a
+            href="https://www.instagram.com/patriciap"
+            target="_blank"
+            title="Instagram profile"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="https://www.twitter.com/patricia"
+          <a
+            href="https://www.twitter.com/patriciap"
+            target="_blank"
+            title="Twitter profile"
             ><i class="fab fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center mt-3 open-source">
+          This project was coded by SheCodes, and it is
+          <a
+            href="https://github.com/leesteph/Portfolio-Project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

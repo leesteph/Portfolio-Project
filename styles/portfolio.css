@@ -11,10 +11,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -29,7 +26,7 @@ h2 {
   font-size: 24px;
 }
 
-h2 {
+h3 {
   font-size: 48px;
 }
 
@@ -43,7 +40,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -92,7 +89,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -173,7 +170,7 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links:hover {
+footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
@@ -186,6 +183,10 @@ footer .contact-box {
 
 footer .contact-box p {
   margin: 0;
+}
+
+footer .open-source {
+  font-size: 10px;
 }
 
 @media (max-width: 900px) {
@@ -203,14 +204,8 @@ footer .contact-box p {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
-  }
-
-  .btn {
-  }
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
@@ -223,6 +218,6 @@ footer .contact-box p {
   }
 
   nav li a {
-    margin-left: 10px;
+    margin-left: 5px;
   }
 }
